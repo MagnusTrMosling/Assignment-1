@@ -1,0 +1,47 @@
+*{
+	background-color: black;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo{
+	width: 70%;
+}
+li{
+	padding: 20px;
+	font-size: 50px;
+	font-family: 'Russo One', sans-serif;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+}
+.nav_links{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	list-style: none;
+}
+.nav_links li a {
+	transition: 0.3s ease 0s ;
+}
+.nav_links li a:hover {
+	color:#ffe81f;
+}
+
+@media only screen and (max-width: 900px) {
+	.nav_links{
+		flex-direction: column;
+		text-align: center;
+		border: none;
+		background-color: beige;
+	}
+}

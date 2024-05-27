@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: black;
+}
+body{
+	width: 100vw;
+	padding: 1rem;
+}
+button{
+	font-family: 'Russo One', sans-serif;
+	background-color: black;
+	border: none;
+	color: #ffe81f;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+h1{
+	text-align: center;
+	margin-bottom: 0.5rem;
+	color:#ffe81f;
+	font-family: 'Russo One', sans-serif;
+	padding: 2rem;
+}
+ul{
+	list-style: none;
+}
+.list-container{
+	display: flex;
+	border: 1px solid white;
+	font-family: 'Russo One', sans-serif;
+	color:#ffe81f;
+}
+.list-container span{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.createdLi{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid white;
+	color:white;	
+}
+.element1, .element2, .element3, .element4, .element5{
+	flex-basis: 20%;
+	padding: 1rem;
+	text-align: center;
+}
